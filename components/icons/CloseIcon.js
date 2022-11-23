@@ -5,7 +5,7 @@ export function CloseIcon() {
     <svg
       viewBox="0 0 24 24"
       fill="currentColor"
-      className="pl-[260px]  h-5 z-50 group-focus-within:fill-[#1da1f2] text-gray-500"
+      className="pl-[260px]  h-5 z-50 group-focus-within:fill-[#1d9bf0] text-gray-500"
     >
       <path
         fill-rule="evenodd"
