@@ -3,7 +3,7 @@ import React from "react";
 function TwitterIcon() {
   return (
     <svg
-      className="twitterIcon"
+      className="fill-[#1da1f2]"
       focusable="false"
       aria-hidden="true"
       viewBox="0 0 24 24"
