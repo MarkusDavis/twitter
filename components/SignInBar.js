@@ -11,7 +11,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 const styles = {
   appBar: {
     top: "auto",
-    backgroundColor: "#1da1f2",
+    backgroundColor: "#1d9bf0",
     bottom: 0,
   },
   menuButton: {
