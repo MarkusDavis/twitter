@@ -40,8 +40,14 @@ export default function Signin() {
         {/* Feed */}
         <Feed />
         {/* Widgets */}
-        <SignInBar />
-      </main>
+        <button
+        onClick={onGoogleClick}
+        className="bg-red-400 rounded-lg p-3 text-white hover:bg-red-500"
+      >
+        Sign in with Google
+      </button>
+      </main>        <SignInBar  /> 
+
     </div>
   );
 }
