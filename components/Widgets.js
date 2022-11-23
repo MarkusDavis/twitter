@@ -11,7 +11,7 @@ function Widgets({ newsResults, randomUsersResults }) {
   return (
     <div className="max-w-xs  xl:w-[600px] hidden lg:inline ml-8 space-y-5">
       <div className="w-[100%] xl:w-[100%] sticky top-0 bg-transparent py-1.5 z-50">
-        <div class="relative  text-[#71767b] focus-within:stroke-[#1da1f2]">
+        <div class="relative  text-[#71767b] focus-within:stroke-[#1d9bf0]">
           <div class="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ function Widgets({ newsResults, randomUsersResults }) {
         </AnimatePresence>
         <button
           onClick={() => setArticleNum(articleNum + 3)}
-          className="text-[#1da1f2] pl-4 pb-3 hover:text-blue-400"
+          className="h-12 text-[#1d9bf0] pl-4 pb-3 hover:text-[#1da1f2] hover:bg-[#ffffff08]  transition duration-100 ease-out w-full text-left rounded-b-md"
         >
           Show more
         </button>
@@ -65,7 +65,7 @@ function Widgets({ newsResults, randomUsersResults }) {
             >
               <div
                 key={randomUser.login.username}
-                className="flex items-center px-4 py-2  cursor-pointer hover:bg-gray-200 transition duration-500 ease-out"
+                className="flex items-center px-4 py-2  cursor-pointer hover:bg-[#ffffff08]  transition duration-500 ease-out"
               >
                 <img
                   className="rounded-full"
@@ -75,10 +75,14 @@ function Widgets({ newsResults, randomUsersResults }) {
                 />
                 <div className="truncate ml-4 leading-5">
                   <h4 className="font-bold hover:underline text-[14px] truncate">
-                    {randomUser.login.username}
+                    {randomUser.name.first + " " + randomUser.name.last}
                   </h4>
                   <h5 className="text-[13px] text-gray-500 truncate">
-                    {randomUser.name.first + " " + randomUser.name.last}
+                    @
+                    {randomUser.name.first.toLowerCase() +
+                      randomUser.name.last
+                        .toLowerCase()
+                        .replace(/[^a-zA-Z ]/g, "")}
                   </h5>
                 </div>
                 <button className="ml-auto bg-black text-white rounded-full text-sm px-3.5 py-1.5 font-bold">
@@ -90,7 +94,7 @@ function Widgets({ newsResults, randomUsersResults }) {
         </AnimatePresence>
         <button
           onClick={() => setRandomUserNum(randomUserNum + 3)}
-          className="text-blue-300 pl-4 pb-3 hover:text-blue-400"
+          className="h-12 text-[#1d9bf0] pl-4 pb-3 hover:text-[#1da1f2]  dark:hover:bg-[#ffffff08]  transition duration-0 ease-out w-full text-left rounded-b-md	"
         >
           Show more
         </button>
