@@ -51,8 +51,8 @@ export default function Sidebar() {
   return (
     <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
       {/* Twitter Logo */}
-      <div className="cursor-pointer fill-[#1da1f2] p-0 xl:px-1">
-        <TwitterIcon className="h-8 w-full" />
+      <div className="cursor-pointer p-0 xl:px-1">
+        <TwitterIcon className="h-8 w-full  fill-[#1d9bf0] dark:fill-[#fff]" />
       </div>
 
       {/* Menu */}
