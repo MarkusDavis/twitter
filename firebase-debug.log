@@ -1,0 +1,47 @@
+[debug] [2022-11-23T11:25:10.653Z] ----------------------------------------------------------------------
+[debug] [2022-11-23T11:25:10.655Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marku\twitter-3\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-11-23T11:25:10.655Z] CLI Version:   11.16.1
+[debug] [2022-11-23T11:25:10.655Z] Platform:      win32
+[debug] [2022-11-23T11:25:10.655Z] Node Version:  v16.15.0
+[debug] [2022-11-23T11:25:10.656Z] Time:          Wed Nov 23 2022 06:25:10 GMT-0500 (Eastern Standard Time)
+[debug] [2022-11-23T11:25:10.656Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-23T11:25:10.658Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-11-23T11:25:10.673Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-23T11:25:10.674Z] > authorizing via signed-in user (developerbreezo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Marku\twitter-3
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-23T11:25:10.858Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-11-23T11:25:10.858Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-11-23T11:25:12.920Z] > refreshing access token with scopes: []
+[debug] [2022-11-23T11:25:12.921Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-23T11:25:12.921Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-23T11:25:13.133Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-23T11:25:13.133Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-23T11:25:13.138Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-23T11:25:13.595Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-23T11:25:13.596Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project next-twitter-md (Twitter-md) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
