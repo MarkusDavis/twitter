@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @layer components {
-.blur {
-  @apply backdrop-blur-sm bg-opacity-30
-}
+  .blur {
+    @apply backdrop-blur-sm bg-opacity-30;
+  }
 
   .bg-media {
-    @apply  bg-[#EFF3F4] dark:bg-[#16181c] 
+    @apply bg-[#EFF3F4] dark:bg-[#16181c];
   }
 
   .icons {
@@ -21,7 +21,7 @@
   .hoverEffect {
     @apply cursor-pointer hover:bg-[#0000001c] dark:hover:bg-[#e7e9ea1a] rounded-full w-[52px] xl:w-auto h-[52px] xl:h-auto xl:p-3 transition duration-200 ease-out;
   }
- 
+
   .border {
     @apply border-[#d9d9d9] dark:border-[#536471];
   }
@@ -36,13 +36,15 @@
     px-4 py-3 w-full focus:outline-none leading-8 text-lg;
   }
 
-.icons-Sidebar {
-  @apply  w-[1.75rem]
-}
-
+  .icons-Sidebar {
+    @apply w-[1.75rem];
+  }
+  .bg-Hover {
+    @apply hover:bg-[hover] dark:hover:bg-[hoverDark];
+  }
 }
 .MuiInputLabel-root.Mui-focused {
-  color: #1da1f2 !important;
+  color: #1d9bf0 !important;
 }
 body {
   padding: 0;
@@ -72,5 +74,3 @@ textarea {
     background: black;
   }
 }
-
-
