@@ -19,9 +19,9 @@ export default function Feed() {
     []
   );
   return (
-    <div className="xl:ml-[370px] border-l border-r dark:border-[#52636f] border-[#eff3f4]  xl:min-w-[600px] sm:ml-[73px] flex-grow max-w-xl z-[-1]">
+    <div className="xl:ml-[370px] border-l border-r dark:border-[#536471] border-[#eff3f4]  xl:min-w-[600px] sm:ml-[73px] flex-grow max-w-xl z-[-1]">
       <div
-        className="flex sticky top-0 z-10 py-2 px-3 backdrop-filter backdrop-blur ydark:bg-primar dark:text-white "
+        className="flex sticky top- z-10 py-2 px-3 backdrop-filter backdrop-blur dark:bg-primar dark:text-white "
       >
         <h2 className="text-lg sm:text-xl font-bold cursor-pointer">Home</h2>
         <div className="hoverEffect flex items-center justify-center px-0 ml-auto w-9 h-9">
